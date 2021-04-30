@@ -1,0 +1,34 @@
+#pays {
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#icon img {
+    left: 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.about h1, p {
+    width: 80%;
+}
+
+#hakkimizda-foto {
+    background-size: 80%;
+    background-position: center 49px;
+}
+
+#elektrik-foto {
+    background-size: 100%;
+    background-position: 0 25.25rem;
+}
+
+#dogalgaz-foto {
+    background-size: 80%;
+    background-position: 0 24.25rem;
+}

@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navbar ul li {
+    padding: 1rem;
+    border-right: 1px solid gray;
+}
+
+#navbar ul li:last-child {
+    border-right: none;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(180, 91, 28);
+    border-radius: 5px;
+}
+
+#icon img {
+    padding-top: 5px;
+    height: 70px;
+    position: relative;
+    left: 70px;
+}
+
+#pays {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://faturaborcsorgulamaodeme.com/invoice/images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#pays ul img {
+    width: 100px;
+    margin: 3rem;
+}
+
+section.height {
+    height: 500px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1, p {
+    width: 80%;
+}
+
+#dogalgaz-foto {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/5266406/thumb/9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 31.25rem;
+}
+
+#elektrik-foto {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://ma-hub.imgix.net/wp-images/2020/07/28154440/Electric-Background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 31.25rem;
+}
+
+#hakkimizda-foto {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/88/.info_logo.png);
+    background-attachment: fixed;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center 49px;
+}

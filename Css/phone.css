@@ -1,0 +1,126 @@
+#navbar {
+    display: none;
+}
+
+#navbar-phone {
+    height: 60px;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+#navbar-phone div.nav-g {
+    display: flex;
+    align-items: center;
+}
+
+#navbar-phone div.icon img {
+    width: 70px;
+    margin-right: 3rem;
+}
+
+/* Dropdown */
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    top: 20px;
+}
+
+.button img {
+    width: 50px;
+}
+
+.dropdown:hover .button {
+    border-right: 4px solid gray;
+    transition: 0.1s;
+    transition-delay: 0.7s;
+    z-index: 1;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    right: -100px;
+}
+
+.dropdown-content {
+    position: relative;
+    visibility: hidden;
+    background: chocolate;
+    top: -20px;
+    left: 0;
+    min-width: 160px;
+    z-index: -1;
+}
+
+.dropdown:hover .dropdown-content {
+    visibility: visible;
+    top: 18px;
+    left: -90px;
+    transition: 0.8s;
+    transition-delay: 0.1s;
+}
+
+
+
+/* Linkler */
+
+.dropdown-content a {
+    color: #FFF;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #d6481c;
+}
+
+.dropdown-content a:active {
+    background-color: #ff6d41;
+    /* transition: 0.2s; */
+}
+
+#pays {
+    background-size: 1000px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    padding: 0.5rem;
+}
+
+#hakkimizda-foto {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
+
+#dogalgaz-foto {
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: -50px 20px;
+}
+
+#elektrik-foto {
+    background-size: 100%;
+    background-position: 0 30.25rem;
+}
